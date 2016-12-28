@@ -1,3 +1,4 @@
+// This is a program to output 'Hello World!' via Objective-C.
 #import <objc/objc.h>
 #import <objc/Object.h>
 #import <Foundation/Foundation.h>
