@@ -1,0 +1,12 @@
+language: cpp
+
+sudo: false
+
+os:
+  - linux
+
+compiler:
+  - gcc
+
+script:
+  - $CXX wolrd/code/c++/HelloWorld.cpp -o a.out && ./a.out
