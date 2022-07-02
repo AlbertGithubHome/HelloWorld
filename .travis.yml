@@ -10,3 +10,4 @@ compiler:
 
 script:
   - $CXX wolrd/code/c++/HelloWorld.cpp -o a.out && ./a.out
+

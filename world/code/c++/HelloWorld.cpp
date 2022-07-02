@@ -1,9 +1,7 @@
-// This is a program to output 'Hello World!' via C++.
 #include <iostream>
-using namespace std;
 
-int main(void) {
-    
-    cout << "Hello World!";
+int main() {
+
+    std::cout << "Hello World!" << std::endl;
     return 0;
 }
