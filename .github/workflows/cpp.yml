@@ -12,4 +12,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: make
-      run: g++ world/code/c++/HelloWorld.cpp -o a.out && ./a.out
+      run: g++ world/code/c/HelloWorld.cpp -o a.out && ./a.out
