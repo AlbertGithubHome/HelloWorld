@@ -1,4 +1,4 @@
-name: C/C++ CI
+name: C CI
 
 on:
   push:
@@ -12,4 +12,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: make
-      run: gcc world/code/c++/HelloWorld.c -o a.out && ./a.out
+      run: gcc world/code/c/HelloWorld.c -o a.out && ./a.out
